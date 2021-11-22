@@ -2096,3 +2096,310 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.22-01.30.09:564][998]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
 [2021.11.22-01.30.09:564][998]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
 [2021.11.22-01.33.08:366][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.11.22-01.33.41:510][856]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.22-01.33.41:519][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.22-01.33.41:519][856]PIE: New page: PIE session: VRTemplateMap (Nov 21, 2021, 3:33:41 PM)
+[2021.11.22-01.33.41:542][856]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.11.22-01.33.41:547][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004636s)
+[2021.11.22-01.33.41:548][856]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.11.22-01.33.41:548][856]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2021.11.22-01.33.41:548][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.005943s)
+[2021.11.22-01.33.41:554][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.11.22-01.33.41:555][856]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.22-01.33.41:555][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.22-01.33.41:555][856]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.22-01.33.41:555][856]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.22-01.33.41:555][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.22-01.33.41:555][856]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.22-01.33.41:559][856]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.22-01.33.41:559][856]LogAudioMixer: Display: 1: FrontRight
+[2021.11.22-01.33.41:582][856]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.22-01.33.41:582][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.22-01.33.41:582][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.22-01.33.41:582][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.22-01.33.41:583][856]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.22-01.33.41:583][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.22-01.33.41:583][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.22-01.33.41:583][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.22-01.33.41:584][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.22-01.33.41:584][856]LogInit: FAudioDevice initialized.
+[2021.11.22-01.33.41:584][856]LogAudio: Display: Audio Device (ID: 3) registered with world 'VRTemplateMap'.
+[2021.11.22-01.33.41:592][856]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.22-01.33.41:594][856]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 60) at 2021.11.21-20.33.41
+[2021.11.22-01.33.41:595][856]LogWorld: Bringing up level for play took: 0.001763
+[2021.11.22-01.33.41:595][856]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.11.22-01.33.41:597][856]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.22-01.33.41:597][856]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.33.41:601][856]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.33.41:602][856]PIE: Server logged in
+[2021.11.22-01.33.41:603][856]PIE: Play in editor total start time 0.087 seconds.
+[2021.11.22-01.33.41:616][856]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.22-01.33.44:987][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.22-01.33.44:987][ 56]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.11.22-01.33.44:987][ 56]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.22-01.33.44:987][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.22-01.33.44:995][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.22-01.33.44:997][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.22-01.33.45:002][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.22-01.33.45:002][ 56]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.22-01.33.45:002][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.22-01.33.45:003][ 56]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.22-01.33.45:014][ 56]LogSlate: Slate User Unregistered.  User Index 8
+[2021.11.22-01.33.45:014][ 56]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.33.45:014][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.11.22-01.33.45:068][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.11.22-01.33.50:210][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.11.22-01.33.53:096][536]MapCheck: New page: Map Check
+[2021.11.22-01.33.53:112][536]Cmd: MAP REBUILD ALLVISIBLE
+[2021.11.22-01.33.53:112][536]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.11.22-01.33.53:114][536]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=false
+[2021.11.22-01.33.53:128][536]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.11.22-01.33.53:128][536]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.11.22-01.33.53:128][536]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.11.22-01.33.53:128][536]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2021.11.22-01.33.53:151][536]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.02s
+[2021.11.22-01.33.53:158][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.11.22-01.33.53:166][536]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2021.11.22-01.33.53:168][536]TextureStreamingBuild: Display: Build Texture Streaming took 0.002 seconds.
+[2021.11.22-01.33.53:173][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.11.22-01.33.53:176][536]LightingResults: New page: Lighting Build - Nov 21, 2021, 3:33:53 PM
+[2021.11.22-01.33.53:206][536]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.11.22-01.33.53:250][536]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.11.22-01.33.53:259][536]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.11.22-01.33.53:769][536]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.11.22-01.33.53:770][536]LogSwarmInterface: [TryOpenConnection] Local Process ID is 22984
+[2021.11.22-01.34.00:385][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.11.22-01.34.00:385][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.11.22-01.34.00:385][536]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.11.22-01.34.00:385][536]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.11.22-01.34.00:385][536]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.11.22-01.34.00:540][536]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.11.22-01.34.00:541][536]MapCheck: New page: VRTemplateMap - Nov 21, 2021, 3:34:00 PM
+[2021.11.22-01.34.00:541][536]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.459ms to complete.
+[2021.11.22-01.34.00:543][536]LogEditorBuildUtils: Build time 0:07
+[2021.11.22-01.34.00:555][536]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MI_Grid_Accent in PCD3D_SM5, Default, SM5 (DDC key hash: C745B1D3C5C4787B142DE9715479613E6540ACA4), compiling. 
+[2021.11.22-01.34.00:559][536]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:560][536]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MI_Grid_Accent in PCD3D_SM5, Default, SM5 (DDC key hash: B3750A9CC9DD1EFD723D55A5DE014ACD8AE1F9AD), compiling. 
+[2021.11.22-01.34.00:562][536]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:564][536]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.11.22-01.34.00:564][536]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.11.22-01.34.00:564][536]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.11.22-01.34.00:564][536]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.11.22-01.34.00:564][536]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:564][536]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MI_Grid_Default in PCD3D_SM5, Default, SM5 (DDC key hash: 0449602A27BB49C093CFAA2DDAD27C50C8CAA1D8), compiling. 
+[2021.11.22-01.34.00:567][536]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:568][536]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MI_Grid_Default in PCD3D_SM5, Default, SM5 (DDC key hash: 2D06D49A82F458DD7CFB23C49AB8196BC3CA7065), compiling. 
+[2021.11.22-01.34.00:571][536]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:601][537]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.11.22-01.34.00:601][537]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2021.11.22-01.34.00:601][537]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.11.22-01.34.00:601][537]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.11.22-01.34.00:601][537]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:609][537]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 62081A5E5CA07938361431A65247711DB799AAE0), compiling. 
+[2021.11.22-01.34.00:614][537]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.11.22-01.34.00:615][537]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DF64CBA63BCD0F07BEE9ADF52735233F3B137BEB), compiling. 
+[2021.11.22-01.34.00:620][537]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Total job queries 4393, among them cache hits 3 (0.07%)
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: Tracking 4390 distinct input hashes that result in 1493 distinct outputs (34.01%)
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: RAM used: 18.06 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.10%
+[2021.11.22-01.34.01:896][538]LogShaderCompilers: Display: ================================================
+[2021.11.22-01.34.02:460][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.11.22-01.34.06:885][556]Job is a success!
+[2021.11.22-01.34.07:228][557]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:      Bricks at depth
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:          0: 12.5% covering 100.0% of volume
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:          1: 12.5% covering 1.6% of volume
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:          2: 75.0% covering 0.1% of volume
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:      Bricks in each level
+[2021.11.22-01.34.07:299][557]LogVolumetricLightmapImport:          VRTemplateMap 			 8 bricks 	 100.0% (Persistent Level)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: HQ_Lightmap0_5 (OODLE_AutoDXT, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: HQ_Lightmap0_4 (OODLE_AutoDXT, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (OODLE_DXT1, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (OODLE_DXT1, 1024X1024)
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: HQ_Lightmap0_6 (OODLE_AutoDXT, 64X64)
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (OODLE_DXT1, 64X64)
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.11.22-01.34.07:658][557]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.11.22-01.34.07:859][557]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2021.11.22-01.34.07:859][557]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2021.11.22-01.34.07:859][557]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2021.11.22-01.34.07:895][557]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2021.11.22-01.34.07:895][557]LogStaticLightingSystem: VRTemplateMap_BuiltData storing lightmap data for 22 meshes in 9 LightmapResourceClusters (2.4 Meshes per cluster).
+[2021.11.22-01.34.07:902][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.11.22-01.34.07:919][557]Lightmass on MSI: 4.56 sec total, 86 ms importing, 11 ms setup, 606 ms photons, 3.79 sec processing, 0 ms extra exporting [22/22 mappings]. Threads: 41.7 sec total, 15.4 sec processing.
+[2021.11.22-01.34.07:920][557]LogStaticLightingSystem: Illumination: 14.4 sec (207 ms encoding lightmaps, 246 ms encoding shadowmaps)
+[2021.11.22-01.34.07:920][557]LogStaticLightingSystem: Lightmap texture memory:  10.0 MB (10.0 MB streaming, 0.0 MB non-streaming), 12 textures
+[2021.11.22-01.34.07:920][557]LogStaticLightingSystem: Shadowmap texture memory: 3.0 MB (3.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.11.22-01.34.08:404][557]DumpUnbuiltLightIteractions
+[2021.11.22-01.34.08:404][557]Lights with unbuilt interactions: 0
+[2021.11.22-01.34.08:404][557]
+[2021.11.22-01.34.08:404][557]Primitives with unbuilt interactions: 0
+[2021.11.22-01.34.08:453][557]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.11.22-01.34.08:495][558]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.11.22-01.34.08:495][558]MapCheck: New page: VRTemplateMap - Nov 21, 2021, 3:34:08 PM
+[2021.11.22-01.34.08:496][558]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.515ms to complete.
+[2021.11.22-01.34.17:922][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.11.22-01.34.17:949][586]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/VRTemplateMap_Auto142F6873143BA94DC3F8BD3A2042E5C09.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1.umap'
+[2021.11.22-01.34.17:953][586]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.036
+[2021.11.22-01.34.17:953][586]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2021.11.22-01.35.10:170][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.11.22-01.35.10:196][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.11.22-01.35.10:220][899]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/VRTemplateMap4AA427B04AA597F633B607954266CE79.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2021.11.22-01.35.10:227][899]LogFileHelpers: Saving map 'VRTemplateMap' took 0.037
+[2021.11.22-01.35.10:368][899]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/VRTemplateMap_BuiltDataA471A0014EE3C12AEA4D38A6AE842142.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset'
+[2021.11.22-01.35.10:505][899]LogSavePackage: Moving '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/VRTemplateMap_BuiltData4D100F184B28E1EC83C33AA14BB1F3DD.tmp' to '../../../../../../Users/nd_mo/Desktop/PennHwork/568 Game Design/VR_Project/VR_Project_Folder/RobbingTheBirdsNest/RobbingTheBirdsNest/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset'
+[2021.11.22-01.35.10:517][899]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.22-01.35.10:517][899]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData
+[2021.11.22-01.35.10:517][899]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2021.11.22-01.35.11:807][977]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.22-01.35.11:814][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.22-01.35.11:814][977]PIE: New page: PIE session: VRTemplateMap (Nov 21, 2021, 3:35:11 PM)
+[2021.11.22-01.35.11:815][977]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.11.22-01.35.11:819][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004813s)
+[2021.11.22-01.35.11:820][977]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.11.22-01.35.11:820][977]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2021.11.22-01.35.11:820][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.005827s)
+[2021.11.22-01.35.11:826][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.11.22-01.35.11:826][977]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.22-01.35.11:826][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.22-01.35.11:826][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.22-01.35.11:827][977]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.22-01.35.11:827][977]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.22-01.35.11:827][977]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.22-01.35.11:827][977]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.22-01.35.11:830][977]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.22-01.35.11:830][977]LogAudioMixer: Display: 1: FrontRight
+[2021.11.22-01.35.11:854][977]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.22-01.35.11:854][977]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.22-01.35.11:854][977]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.22-01.35.11:854][977]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.22-01.35.11:855][977]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.22-01.35.11:855][977]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.22-01.35.11:855][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.22-01.35.11:856][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.22-01.35.11:856][977]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.22-01.35.11:856][977]LogInit: FAudioDevice initialized.
+[2021.11.22-01.35.11:856][977]LogAudio: Display: Audio Device (ID: 4) registered with world 'VRTemplateMap'.
+[2021.11.22-01.35.11:862][977]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.22-01.35.11:865][977]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 60) at 2021.11.21-20.35.11
+[2021.11.22-01.35.11:865][977]LogWorld: Bringing up level for play took: 0.001454
+[2021.11.22-01.35.11:865][977]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.11.22-01.35.11:867][977]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.22-01.35.11:867][977]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.35.11:871][977]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.35.11:872][977]PIE: Server logged in
+[2021.11.22-01.35.11:873][977]PIE: Play in editor total start time 0.062 seconds.
+[2021.11.22-01.35.11:886][977]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.22-01.35.17:936][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.22-01.35.17:936][338]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.11.22-01.35.17:936][338]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.22-01.35.17:936][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.22-01.35.17:944][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.22-01.35.17:946][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.22-01.35.17:951][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.22-01.35.17:951][338]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.22-01.35.17:951][338]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.22-01.35.17:952][338]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.22-01.35.17:969][338]LogSlate: Slate User Unregistered.  User Index 8
+[2021.11.22-01.35.17:969][338]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.35.17:970][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.11.22-01.35.18:008][340]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.11.22-01.35.21:311][538]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.22-01.35.21:319][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.22-01.35.21:319][538]PIE: New page: PIE session: VRTemplateMap (Nov 21, 2021, 3:35:21 PM)
+[2021.11.22-01.35.21:319][538]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.11.22-01.35.21:324][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004901s)
+[2021.11.22-01.35.21:325][538]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.11.22-01.35.21:325][538]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2021.11.22-01.35.21:325][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.005804s)
+[2021.11.22-01.35.21:331][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.11.22-01.35.21:332][538]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.22-01.35.21:332][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.22-01.35.21:332][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.22-01.35.21:332][538]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.22-01.35.21:332][538]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.22-01.35.21:332][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.22-01.35.21:333][538]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.22-01.35.21:336][538]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.22-01.35.21:336][538]LogAudioMixer: Display: 1: FrontRight
+[2021.11.22-01.35.21:359][538]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.22-01.35.21:359][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.22-01.35.21:360][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.22-01.35.21:360][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.22-01.35.21:360][538]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.22-01.35.21:360][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.22-01.35.21:360][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.22-01.35.21:361][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.22-01.35.21:361][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.22-01.35.21:361][538]LogInit: FAudioDevice initialized.
+[2021.11.22-01.35.21:361][538]LogAudio: Display: Audio Device (ID: 5) registered with world 'VRTemplateMap'.
+[2021.11.22-01.35.21:369][538]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.22-01.35.21:371][538]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 60) at 2021.11.21-20.35.21
+[2021.11.22-01.35.21:371][538]LogWorld: Bringing up level for play took: 0.001386
+[2021.11.22-01.35.21:371][538]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.11.22-01.35.21:373][538]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.22-01.35.21:373][538]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.35.21:378][538]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.35.21:378][538]PIE: Server logged in
+[2021.11.22-01.35.21:379][538]PIE: Play in editor total start time 0.063 seconds.
+[2021.11.22-01.35.21:392][538]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.22-01.35.26:977][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.22-01.35.26:977][870]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.11.22-01.35.26:977][870]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.22-01.35.26:977][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.22-01.35.26:987][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.22-01.35.26:989][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.22-01.35.26:994][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.22-01.35.26:995][870]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.22-01.35.26:995][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.22-01.35.26:996][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.22-01.35.27:030][870]LogSlate: Slate User Unregistered.  User Index 8
+[2021.11.22-01.35.27:030][870]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2021.11.22-01.35.27:031][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.11.22-01.35.27:051][871]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.11.22-01.35.30:643][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
