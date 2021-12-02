@@ -2661,3 +2661,940 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.02-15.36.23:494][972]LogSlate: Window 'VRTemplateMap' being destroyed
 [2021.12.02-15.36.23:497][972]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
 [2021.12.02-15.36.23:497][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.42.05:524][ 31]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.VRTemplateMap
+[2021.12.02-15.42.12:631][525]BlueprintLog: New page: Compile VRTemplateMap
+[2021.12.02-15.42.12:700][525]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2021.12.02-15.42.13:471][572]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.42.13:477][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.42.13:477][572]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:42:13 AM)
+[2021.12.02-15.42.13:478][572]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.42.13:486][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008511s)
+[2021.12.02-15.42.13:487][572]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.42.13:487][572]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2021.12.02-15.42.13:487][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009834s)
+[2021.12.02-15.42.13:515][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.12.02-15.42.13:516][572]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.42.13:516][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.42.13:516][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.42.13:517][572]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.42.13:517][572]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.42.13:517][572]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.42.13:517][572]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.42.13:529][572]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.42.13:529][572]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.42.13:542][572]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.42.13:543][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.42.13:543][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.42.13:543][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.42.13:543][572]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.42.13:544][572]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.42.13:544][572]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.42.13:545][572]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.42.13:545][572]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.42.13:545][572]LogInit: FAudioDevice initialized.
+[2021.12.02-15.42.13:545][572]LogAudio: Display: Audio Device (ID: 22) registered with world 'VRTemplateMap'.
+[2021.12.02-15.42.13:556][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.42.14:166][572]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.42.14:169][572]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.42.14
+[2021.12.02-15.42.14:170][572]LogWorld: Bringing up level for play took: 0.002368
+[2021.12.02-15.42.14:170][572]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.12.02-15.42.14:172][572]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.42.14:174][572]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.42.14:182][572]PIE: Server logged in
+[2021.12.02-15.42.14:188][572]PIE: Play in editor total start time 0.712 seconds.
+[2021.12.02-15.42.14:238][572]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.42.14:274][574]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.42.15:218][667]LogBlueprintUserMessages: [VRTemplateMap_C_9] Right Trigger
+[2021.12.02-15.42.20:250][183]LogBlueprintUserMessages: [VRTemplateMap_C_9] Right Trigger
+[2021.12.02-15.42.21:047][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.42.21:047][261]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.42.21:125][261]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.42.21:128][261]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.42.21:128][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.42.21:138][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.42.21:149][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.42.21:172][261]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.42.21:172][261]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.42.21:172][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.42.21:173][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.42.21:180][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.12.02-15.42.21:221][262]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.12.02-15.42.45:785][ 62]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.42.45:792][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.42.45:792][ 62]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:42:45 AM)
+[2021.12.02-15.42.45:816][ 62]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.42.45:826][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010783s)
+[2021.12.02-15.42.45:828][ 62]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.42.45:828][ 62]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2021.12.02-15.42.45:828][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.012325s)
+[2021.12.02-15.42.45:854][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.12.02-15.42.45:856][ 62]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.42.45:856][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.42.45:856][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.42.45:856][ 62]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.42.45:857][ 62]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.42.45:857][ 62]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.42.45:857][ 62]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.42.45:868][ 62]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.42.45:869][ 62]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.42.45:881][ 62]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.42.45:881][ 62]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.42.45:881][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.42.45:881][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.42.45:882][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.42.45:882][ 62]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.42.45:882][ 62]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.42.45:883][ 62]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.42.45:883][ 62]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.42.45:883][ 62]LogInit: FAudioDevice initialized.
+[2021.12.02-15.42.45:883][ 62]LogAudio: Display: Audio Device (ID: 23) registered with world 'VRTemplateMap'.
+[2021.12.02-15.42.45:894][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.42.46:499][ 62]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.42.46:502][ 62]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.42.46
+[2021.12.02-15.42.46:503][ 62]LogWorld: Bringing up level for play took: 0.002681
+[2021.12.02-15.42.46:503][ 62]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.12.02-15.42.46:505][ 62]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.42.46:507][ 62]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.42.46:512][ 62]PIE: Server logged in
+[2021.12.02-15.42.46:515][ 62]PIE: Play in editor total start time 0.724 seconds.
+[2021.12.02-15.42.46:561][ 62]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.42.46:593][ 64]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.42.47:232][127]LogBlueprintUserMessages: [VRTemplateMap_C_9] Right Trigger
+[2021.12.02-15.42.47:233][127]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetWorldLocationAndRotation', from offset 381
+[2021.12.02-15.42.47:233][127]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap_C:InpActEvt_TriggerRight_K2Node_InputActionEvent_0
+	Function /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap_C:ExecuteUbergraph_VRTemplateMap
+
+[2021.12.02-15.43.06:261][258]LogBlueprintUserMessages: [VRTemplateMap_C_9] Right Trigger
+[2021.12.02-15.43.06:676][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.43.06:676][289]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.43.06:678][289]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.43.06:684][289]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.43.06:685][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.43.06:691][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.43.06:703][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.43.06:725][289]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.43.06:725][289]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.43.06:725][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.43.06:727][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.43.06:733][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.12.02-15.43.06:777][290]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.12.02-15.44.07:247][764]BlueprintLog: New page: Compile VRTemplateMap
+[2021.12.02-15.44.07:303][764]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.12.02-15.44.12:643][238]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.44.12:649][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.44.12:650][238]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:44:12 AM)
+[2021.12.02-15.44.12:650][238]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.44.12:661][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010951s)
+[2021.12.02-15.44.12:662][238]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.44.12:662][238]LogPlayLevel: PIE: World Init took: (0.001455s)
+[2021.12.02-15.44.12:662][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.012609s)
+[2021.12.02-15.44.12:689][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.12.02-15.44.12:690][238]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.44.12:690][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.44.12:690][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.44.12:691][238]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.44.12:692][238]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.44.12:692][238]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.44.12:692][238]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.44.12:706][238]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.44.12:706][238]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.44.12:721][238]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.44.12:721][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.44.12:721][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.44.12:721][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.44.12:722][238]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.44.12:722][238]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.44.12:722][238]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.44.12:724][238]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.44.12:724][238]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.44.12:724][238]LogInit: FAudioDevice initialized.
+[2021.12.02-15.44.12:724][238]LogAudio: Display: Audio Device (ID: 24) registered with world 'VRTemplateMap'.
+[2021.12.02-15.44.12:735][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.44.13:347][238]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.44.13:350][238]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.44.13
+[2021.12.02-15.44.13:351][238]LogWorld: Bringing up level for play took: 0.002261
+[2021.12.02-15.44.13:351][238]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.12.02-15.44.13:353][238]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.44.13:355][238]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.44.13:360][238]PIE: Server logged in
+[2021.12.02-15.44.13:363][238]PIE: Play in editor total start time 0.714 seconds.
+[2021.12.02-15.44.13:420][238]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.44.13:465][240]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.44.14:589][352]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.44.15:223][417]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.44.15:430][438]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.44.15:964][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.44.15:964][489]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.44.16:038][489]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.44.16:040][489]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.44.16:041][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.44.16:051][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.44.16:062][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.44.16:088][489]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.44.16:089][489]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.44.16:089][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.44.16:090][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.44.16:098][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.12.02-15.44.16:143][490]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.12.02-15.44.54:497][334]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.44.54:504][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.44.54:504][334]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:44:54 AM)
+[2021.12.02-15.44.54:542][334]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.44.54:552][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009052s)
+[2021.12.02-15.44.54:552][334]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.44.54:553][334]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2021.12.02-15.44.54:553][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010385s)
+[2021.12.02-15.44.54:579][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.12.02-15.44.54:580][334]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.12.02-15.44.54:580][334]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.44.54:581][334]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.44.54:581][334]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.44.54:581][334]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.44.54:581][334]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.44.54:581][334]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.44.54:591][334]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.44.54:591][334]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.44.54:603][334]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.44.54:604][334]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.44.54:604][334]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.44.54:604][334]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.44.54:604][334]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.44.54:604][334]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.44.54:605][334]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.44.54:606][334]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.44.54:606][334]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.44.54:606][334]LogInit: FAudioDevice initialized.
+[2021.12.02-15.44.54:606][334]LogAudio: Display: Audio Device (ID: 25) registered with world 'VRTemplateMap'.
+[2021.12.02-15.44.54:616][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.44.55:213][334]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.44.55:215][334]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.44.55
+[2021.12.02-15.44.55:216][334]LogWorld: Bringing up level for play took: 0.002234
+[2021.12.02-15.44.55:216][334]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.12.02-15.44.55:218][334]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.44.55:220][334]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.44.55:225][334]PIE: Server logged in
+[2021.12.02-15.44.55:228][334]PIE: Play in editor total start time 0.724 seconds.
+[2021.12.02-15.44.55:280][334]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.44.55:311][336]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.44.55:841][388]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.44.55:842][388]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetWorldLocation', from offset 381
+[2021.12.02-15.44.55:842][388]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap_C:InpActEvt_TriggerRight_K2Node_InputActionEvent_0
+	Function /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap_C:ExecuteUbergraph_VRTemplateMap
+
+[2021.12.02-15.46.22:202][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.46.22:202][388]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.46.22:202][388]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.46.22:205][388]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.46.22:206][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.46.22:217][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.46.22:229][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.46.22:251][388]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.46.22:251][388]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.46.22:251][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.46.22:253][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.46.22:260][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.12.02-15.46.22:304][389]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.12.02-15.46.34:582][437]LogSlate: Window 'VRTemplateMap' being destroyed
+[2021.12.02-15.46.34:589][437]LogSlate: Window 'VRTemplateMap' being destroyed
+[2021.12.02-15.46.34:592][437]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.46.34:592][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.47.50:780][262]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2021.12.02-15.47.51:769][370]LogEditorViewport: Clicking on Actor (LMB): VRSpectator_C (BP_VRSpectator2)
+[2021.12.02-15.47.56:737][920]LogEditorViewport: Clicking on Actor (LMB): VRSpectator_C (VRSpectator)
+[2021.12.02-15.47.59:244][179]LogEditorViewport: Clicking on Actor (LMB): VRSpectator_C (BP_VRSpectator2)
+[2021.12.02-15.48.07:025][ 43]LogEditorViewport: Clicking on Actor (LMB): VRSpectator_C (VRSpectator)
+[2021.12.02-15.48.09:678][305]LogEditorViewport: Clicking on Actor (LMB): VRSpectator_C (BP_VRSpectator2)
+[2021.12.02-15.48.18:113][117]Cmd: DELETE
+[2021.12.02-15.48.18:113][117]Cmd: ACTOR DELETE
+[2021.12.02-15.48.18:119][117]LogEditorActor: Deleted Actor: VRSpectator_C
+[2021.12.02-15.48.18:150][117]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.12.02-15.48.18:165][117]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2021.12.02-15.48.21:429][463]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.48.21:436][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.48.21:436][463]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:48:21 AM)
+[2021.12.02-15.48.21:436][463]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.48.21:445][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008476s)
+[2021.12.02-15.48.21:446][463]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.48.21:446][463]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2021.12.02-15.48.21:446][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009841s)
+[2021.12.02-15.48.21:469][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.12.02-15.48.21:471][463]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.48.21:471][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.48.21:471][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.48.21:471][463]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.48.21:471][463]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.48.21:472][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.48.21:472][463]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.48.21:483][463]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.48.21:483][463]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.48.21:495][463]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.48.21:496][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.48.21:496][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.48.21:496][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.48.21:496][463]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.48.21:496][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.48.21:496][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.48.21:498][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.48.21:498][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.48.21:498][463]LogInit: FAudioDevice initialized.
+[2021.12.02-15.48.21:498][463]LogAudio: Display: Audio Device (ID: 26) registered with world 'VRTemplateMap'.
+[2021.12.02-15.48.21:511][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.48.22:108][463]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.48.22:111][463]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.48.22
+[2021.12.02-15.48.22:111][463]LogWorld: Bringing up level for play took: 0.002008
+[2021.12.02-15.48.22:111][463]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.12.02-15.48.22:114][463]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.48.22:115][463]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.48.22:118][463]PIE: Server logged in
+[2021.12.02-15.48.22:120][463]PIE: Play in editor total start time 0.684 seconds.
+[2021.12.02-15.48.22:199][463]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.48.22:230][465]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.48.23:119][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.48.23:119][548]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.48.23:162][548]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.48.23:166][548]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.48.23:166][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.48.23:174][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.48.23:179][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.48.23:204][548]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.48.23:204][548]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.48.23:204][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.48.23:206][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.48.23:216][548]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.12.02-15.48.23:251][549]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.12.02-15.48.24:402][674]MapCheck: New page: Map Check
+[2021.12.02-15.48.24:426][674]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.02-15.48.24:426][674]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.02-15.48.24:431][674]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=false
+[2021.12.02-15.48.24:460][674]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.12.02-15.48.24:460][674]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.12.02-15.48.24:460][674]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.12.02-15.48.24:460][674]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2021.12.02-15.48.24:460][674]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=0.000 Y=0.000 Z=120.000, usually the RecastNavMesh location) not being aligned with tile size (1000 uu) 
+[2021.12.02-15.48.24:468][674]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.01s
+[2021.12.02-15.48.24:497][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.12.02-15.48.24:507][674]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
+[2021.12.02-15.48.24:511][674]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2021.12.02-15.48.24:532][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.12.02-15.48.24:541][674]LightingResults: New page: Lighting Build - Dec 2, 2021, 5:48:24 AM
+[2021.12.02-15.48.24:592][674]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.02-15.48.24:698][674]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.02-15.48.24:739][674]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.02-15.48.25:258][674]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.02-15.48.25:258][674]LogSwarmInterface: [TryOpenConnection] Local Process ID is 268992
+[2021.12.02-15.48.28:955][674]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.02-15.48.28:955][674]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.02-15.48.28:955][674]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.02-15.48.28:955][674]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.02-15.48.28:955][674]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.02-15.48.29:222][674]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.12.02-15.48.29:222][674]MapCheck: New page: VRTemplateMap - Dec 2, 2021, 5:48:29 AM
+[2021.12.02-15.48.29:223][674]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.12.02-15.48.29:223][674]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0.568ms to complete.
+[2021.12.02-15.48.29:226][674]LogEditorBuildUtils: Build time 0:04
+[2021.12.02-15.48.29:685][674]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: C34246014798ADC22AD56464D123333FCA67A4AC), compiling. 
+[2021.12.02-15.48.29:689][674]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.12.02-15.48.29:690][674]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: BEF3287D281F887C85422503D714041B02F870B2), compiling. 
+[2021.12.02-15.48.29:694][674]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 2
+[2021.12.02-15.48.29:694][674]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 1
+[2021.12.02-15.48.29:694][674]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2021.12.02-15.48.29:694][674]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2021.12.02-15.48.29:786][674]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 2
+[2021.12.02-15.48.29:786][674]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 1
+[2021.12.02-15.48.29:786][674]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2021.12.02-15.48.30:510][675]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.12.02-15.48.30:510][675]LogShaderCompilers: Display: Total job queries 200, among them cache hits 105 (52.50%)
+[2021.12.02-15.48.30:510][675]LogShaderCompilers: Display: Tracking 81 distinct input hashes that result in 61 distinct outputs (75.31%)
+[2021.12.02-15.48.30:510][675]LogShaderCompilers: Display: RAM used: 1.22 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.07%
+[2021.12.02-15.48.30:510][675]LogShaderCompilers: Display: ================================================
+[2021.12.02-15.48.30:679][678]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2021.12.02-15.48.39:140][117]Job is a success!
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.02-15.48.39:286][118]LogVolumetricLightmapImport:          VRTemplateMap 			 3 bricks 	 100.0% (Persistent Level)
+[2021.12.02-15.48.39:643][118]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2021.12.02-15.48.39:643][118]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2021.12.02-15.48.39:643][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: HQ_Lightmap0_4 (OODLE_AutoDXT, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (OODLE_DXT1, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (OODLE_DXT1, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: HQ_Lightmap0_5 (OODLE_AutoDXT, 1024X1024)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: HQ_Lightmap0_6 (OODLE_AutoDXT, 128X128)
+[2021.12.02-15.48.39:644][118]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (OODLE_DXT1, 128X128)
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.12.02-15.48.39:644][118]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.12.02-15.48.39:715][118]LogStaticLightingSystem: VRTemplateMap_BuiltData storing lightmap data for 12 meshes in 6 LightmapResourceClusters (2.0 Meshes per cluster).
+[2021.12.02-15.48.39:717][118]Lightmass on SIGLAB-VR1: 7.38 sec total, 396 ms importing, 21 ms setup, 1.03 sec photons, 5.79 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 1:50 min total, 35.0 sec processing.
+[2021.12.02-15.48.39:810][118]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2021.12.02-15.48.39:840][118]LogStaticLightingSystem: Illumination: 15.2 sec (248 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2021.12.02-15.48.39:840][118]LogStaticLightingSystem: Lightmap texture memory:  10.0 MB (10.0 MB streaming, 0.0 MB non-streaming), 12 textures
+[2021.12.02-15.48.39:840][118]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.12.02-15.48.40:018][118]DumpUnbuiltLightIteractions
+[2021.12.02-15.48.40:018][118]Lights with unbuilt interactions: 0
+[2021.12.02-15.48.40:018][118]
+[2021.12.02-15.48.40:018][118]Primitives with unbuilt interactions: 0
+[2021.12.02-15.48.40:092][118]LogTexture: Display: Building textures: NewReflectionComponentTexture1F7B229B42B9395D79A4C8B83D8CF41C (BGRA8, 128X128)
+[2021.12.02-15.48.40:131][119]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.02-15.48.40:131][119]MapCheck: New page: VRTemplateMap - Dec 2, 2021, 5:48:40 AM
+[2021.12.02-15.48.40:131][119]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.404ms to complete.
+[2021.12.02-15.48.44:117][551]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.48.44:126][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.48.44:126][551]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:48:44 AM)
+[2021.12.02-15.48.44:126][551]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.48.44:135][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008032s)
+[2021.12.02-15.48.44:136][551]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.48.44:136][551]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2021.12.02-15.48.44:136][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009374s)
+[2021.12.02-15.48.44:155][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.12.02-15.48.44:158][551]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.12.02-15.48.44:158][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.48.44:158][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.48.44:158][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.48.44:158][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.48.44:159][551]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.48.44:159][551]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.48.44:159][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.48.44:159][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.48.44:159][551]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.48.44:159][551]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.48.44:159][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.48.44:159][551]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.48.44:171][551]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.48.44:171][551]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.48.44:183][551]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.48.44:183][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.48.44:183][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.48.44:184][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.48.44:184][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.48.44:184][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.48.44:184][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.48.44:185][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.48.44:186][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.48.44:186][551]LogInit: FAudioDevice initialized.
+[2021.12.02-15.48.44:186][551]LogAudio: Display: Audio Device (ID: 27) registered with world 'VRTemplateMap'.
+[2021.12.02-15.48.44:196][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.48.44:807][551]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.48.44:810][551]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.48.44
+[2021.12.02-15.48.44:810][551]LogWorld: Bringing up level for play took: 0.002021
+[2021.12.02-15.48.44:810][551]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.12.02-15.48.44:813][551]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.48.44:814][551]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.48.44:817][551]PIE: Server logged in
+[2021.12.02-15.48.44:818][551]PIE: Play in editor total start time 0.692 seconds.
+[2021.12.02-15.48.44:901][551]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.48.46:757][727]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.48.46:775][729]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.48.47:353][788]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.48.47:616][815]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.48.47:862][840]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.48.48:067][861]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.48.48:298][885]LogBlueprintUserMessages: [VRTemplateMap_C_10] Right Trigger
+[2021.12.02-15.48.52:038][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.48.52:038][264]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.48.52:100][264]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.48.52:102][264]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.48.52:102][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.48.52:111][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.48.52:116][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.48.52:135][264]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.48.52:136][264]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.48.52:136][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.48.52:137][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.48.52:144][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.12.02-15.48.52:174][265]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.12.02-15.48.55:946][669]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.48.55:952][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.48.55:953][669]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:48:55 AM)
+[2021.12.02-15.48.55:953][669]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.48.55:961][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007980s)
+[2021.12.02-15.48.55:962][669]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.48.55:962][669]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2021.12.02-15.48.55:962][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009546s)
+[2021.12.02-15.48.55:983][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.12.02-15.48.55:985][669]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.48.55:985][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.48.55:985][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.48.55:985][669]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.48.55:985][669]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.48.55:985][669]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.48.55:986][669]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.48.55:995][669]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.48.55:995][669]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.48.56:006][669]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.48.56:007][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.48.56:007][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.48.56:007][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.48.56:007][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.48.56:007][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.48.56:007][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.48.56:009][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.48.56:009][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.48.56:009][669]LogInit: FAudioDevice initialized.
+[2021.12.02-15.48.56:009][669]LogAudio: Display: Audio Device (ID: 28) registered with world 'VRTemplateMap'.
+[2021.12.02-15.48.56:019][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.48.58:641][669]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.48.58:645][669]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.48.58
+[2021.12.02-15.48.58:645][669]LogWorld: Bringing up level for play took: 0.003086
+[2021.12.02-15.48.58:646][669]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.12.02-15.48.58:648][669]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.48.58:650][669]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.48.58:653][669]PIE: Server logged in
+[2021.12.02-15.48.58:655][669]PIE: Play in editor total start time 2.702 seconds.
+[2021.12.02-15.48.58:741][669]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.49.03:568][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.49.03:568][156]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.49.03:626][156]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.49.03:629][156]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.49.03:630][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.49.03:643][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.49.03:649][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.49.03:668][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.49.03:668][156]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.49.03:668][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.49.03:669][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.49.03:676][156]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.12.02-15.49.03:702][157]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.12.02-15.49.17:513][649]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.VRTemplateMap
+[2021.12.02-15.49.57:826][993]BlueprintLog: New page: Compile VRTemplateMap
+[2021.12.02-15.49.57:892][993]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.12.02-15.49.58:555][ 42]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.49.58:561][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.49.58:562][ 42]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:49:58 AM)
+[2021.12.02-15.49.58:562][ 42]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.49.58:570][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008045s)
+[2021.12.02-15.49.58:571][ 42]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.49.58:571][ 42]LogPlayLevel: PIE: World Init took: (0.001123s)
+[2021.12.02-15.49.58:571][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009319s)
+[2021.12.02-15.49.58:597][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.12.02-15.49.58:600][ 42]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.49.58:600][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.49.58:600][ 42]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.49.58:600][ 42]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.49.58:600][ 42]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.49.58:600][ 42]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.49.58:610][ 42]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.49.58:610][ 42]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.49.58:622][ 42]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.49.58:622][ 42]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.49.58:622][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.49.58:622][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.49.58:623][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.49.58:623][ 42]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.49.58:623][ 42]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.49.58:624][ 42]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.49.58:624][ 42]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.49.58:624][ 42]LogInit: FAudioDevice initialized.
+[2021.12.02-15.49.58:624][ 42]LogAudio: Display: Audio Device (ID: 29) registered with world 'VRTemplateMap'.
+[2021.12.02-15.49.58:635][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.49.59:256][ 42]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.49.59:259][ 42]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.49.59
+[2021.12.02-15.49.59:259][ 42]LogWorld: Bringing up level for play took: 0.002175
+[2021.12.02-15.49.59:260][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.12.02-15.49.59:262][ 42]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.49.59:263][ 42]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.49.59:268][ 42]PIE: Server logged in
+[2021.12.02-15.49.59:271][ 42]PIE: Play in editor total start time 0.71 seconds.
+[2021.12.02-15.49.59:325][ 42]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.50.00:362][144]LogBlueprintUserMessages: [VRTemplateMap_C_11] Right Trigger
+[2021.12.02-15.50.00:381][146]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.50.05:537][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.50.05:537][671]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.50.05:611][671]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.50.05:614][671]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.50.05:614][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.05:626][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.50.05:631][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.05:658][671]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.50.05:659][671]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.50.05:659][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.50.05:660][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.50.05:667][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.12.02-15.50.05:702][672]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.12.02-15.50.07:592][841]LogSlate: Window 'VRTemplateMap' being destroyed
+[2021.12.02-15.50.07:597][841]LogSlate: Window 'VRTemplateMap' being destroyed
+[2021.12.02-15.50.07:600][841]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.50.07:600][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.09:274][  6]LogEditorViewport: Clicking on Actor (LMB): LevelStart_C (LevelStart)
+[2021.12.02-15.50.14:459][558]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.50.14:470][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.50.14:471][558]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:50:14 AM)
+[2021.12.02-15.50.14:471][558]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.50.14:482][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010881s)
+[2021.12.02-15.50.14:483][558]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.50.14:483][558]LogPlayLevel: PIE: World Init took: (0.001366s)
+[2021.12.02-15.50.14:483][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.012453s)
+[2021.12.02-15.50.14:510][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.12.02-15.50.14:512][558]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2021.12.02-15.50.14:512][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.50.14:512][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.50.14:512][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.50.14:512][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.50.14:512][558]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.50.14:513][558]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.50.14:513][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.50.14:513][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.50.14:513][558]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.50.14:513][558]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.50.14:513][558]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.50.14:513][558]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.50.14:522][558]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.50.14:522][558]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.50.14:575][558]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.50.14:575][558]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.50.14:575][558]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.50.14:575][558]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.50.14:576][558]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.50.14:576][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.50.14:576][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.50.14:578][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.50.14:578][558]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.50.14:578][558]LogInit: FAudioDevice initialized.
+[2021.12.02-15.50.14:578][558]LogAudio: Display: Audio Device (ID: 30) registered with world 'VRTemplateMap'.
+[2021.12.02-15.50.14:593][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.50.15:706][558]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.50.15:711][558]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.50.15
+[2021.12.02-15.50.15:711][558]LogWorld: Bringing up level for play took: 0.004400
+[2021.12.02-15.50.15:712][558]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.12.02-15.50.15:714][558]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.50.15:716][558]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.50.15:719][558]PIE: Server logged in
+[2021.12.02-15.50.15:720][558]PIE: Play in editor total start time 1.251 seconds.
+[2021.12.02-15.50.15:796][558]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.50.16:400][618]LogBlueprintUserMessages: [VRTemplateMap_C_11] Right Trigger
+[2021.12.02-15.50.16:419][620]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.50.19:086][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.50.19:086][888]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.50.19:156][888]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.50.19:158][888]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.50.19:159][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.19:171][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.50.19:183][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.19:203][888]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.50.19:203][888]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.50.19:203][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.50.19:204][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.50.19:211][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.12.02-15.50.19:245][889]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.12.02-15.50.22:897][292]Cmd: TRANSACTION UNDO
+[2021.12.02-15.50.22:897][292]LogEditorTransaction: Undo Move Actors
+[2021.12.02-15.50.26:798][639]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.50.26:805][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.50.26:805][639]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:50:26 AM)
+[2021.12.02-15.50.26:805][639]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.50.26:814][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008697s)
+[2021.12.02-15.50.26:815][639]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.50.26:815][639]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2021.12.02-15.50.26:815][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010137s)
+[2021.12.02-15.50.26:839][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.12.02-15.50.26:842][639]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.50.26:842][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.50.26:842][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.50.26:843][639]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.50.26:843][639]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.50.26:843][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.50.26:843][639]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.50.26:852][639]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.50.26:852][639]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.50.26:864][639]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.50.26:864][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.50.26:865][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.50.26:865][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.50.26:865][639]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.50.26:865][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.50.26:865][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.50.26:866][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.50.26:866][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.50.26:866][639]LogInit: FAudioDevice initialized.
+[2021.12.02-15.50.26:866][639]LogAudio: Display: Audio Device (ID: 31) registered with world 'VRTemplateMap'.
+[2021.12.02-15.50.26:877][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.50.27:472][639]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.50.27:475][639]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.50.27
+[2021.12.02-15.50.27:475][639]LogWorld: Bringing up level for play took: 0.002138
+[2021.12.02-15.50.27:475][639]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.12.02-15.50.27:478][639]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.50.27:479][639]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.50.27:482][639]PIE: Server logged in
+[2021.12.02-15.50.27:483][639]PIE: Play in editor total start time 0.679 seconds.
+[2021.12.02-15.50.27:557][639]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.50.29:744][861]LogBlueprintUserMessages: [VRTemplateMap_C_11] Right Trigger
+[2021.12.02-15.50.29:762][863]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.50.30:667][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.50.30:667][952]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.50.30:716][952]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.50.30:719][952]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.50.30:719][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.30:731][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.50.30:743][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.50.30:762][952]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.50.30:762][952]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.50.30:762][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.50.30:764][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.50.30:782][952]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.12.02-15.50.30:815][953]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.12.02-15.50.36:878][639]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.VRTemplateMap
+[2021.12.02-15.51.04:078][415]BlueprintLog: New page: Compile VRTemplateMap
+[2021.12.02-15.51.04:152][415]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.12.02-15.51.05:252][490]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.51.05:258][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.51.05:258][490]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:51:05 AM)
+[2021.12.02-15.51.05:284][490]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.51.05:293][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008973s)
+[2021.12.02-15.51.05:295][490]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.51.05:295][490]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2021.12.02-15.51.05:295][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010907s)
+[2021.12.02-15.51.05:323][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.12.02-15.51.05:323][490]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.51.05:324][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.51.05:324][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.51.05:325][490]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.51.05:325][490]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.51.05:325][490]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.51.05:325][490]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.51.05:336][490]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.51.05:336][490]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.51.05:349][490]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.51.05:349][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.51.05:349][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.51.05:350][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.51.05:350][490]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.51.05:350][490]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.51.05:350][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.51.05:352][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.51.05:352][490]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.51.05:352][490]LogInit: FAudioDevice initialized.
+[2021.12.02-15.51.05:352][490]LogAudio: Display: Audio Device (ID: 32) registered with world 'VRTemplateMap'.
+[2021.12.02-15.51.05:365][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.51.05:972][490]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.51.05:975][490]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.51.05
+[2021.12.02-15.51.05:975][490]LogWorld: Bringing up level for play took: 0.002783
+[2021.12.02-15.51.05:976][490]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2021.12.02-15.51.05:978][490]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.51.05:980][490]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.51.05:987][490]PIE: Server logged in
+[2021.12.02-15.51.05:991][490]PIE: Play in editor total start time 0.733 seconds.
+[2021.12.02-15.51.06:053][490]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.51.06:562][534]LogBlueprintUserMessages: [VRTemplateMap_C_12] Right Trigger
+[2021.12.02-15.51.06:580][536]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.51.07:826][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.51.07:826][659]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.51.07:903][659]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.51.07:906][659]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.51.07:906][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.51.07:919][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.51.07:934][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.51.07:957][659]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.51.07:957][659]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.51.07:957][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.51.07:958][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.51.07:965][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.12.02-15.51.08:012][660]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2021.12.02-15.51.12:339][  5]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.51.12:345][  5]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.12.02-15.51.12:346][  5]LogPlayLevel: [PlayLevel] Compiling VRTemplateMap before play...
+[2021.12.02-15.51.12:413][  5]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2021.12.02-15.51.12:414][  5]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (1 blueprints)
+[2021.12.02-15.51.12:414][  5]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:51:12 AM)
+[2021.12.02-15.51.12:414][  5]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.51.12:422][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007842s)
+[2021.12.02-15.51.12:423][  5]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.51.12:423][  5]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2021.12.02-15.51.12:423][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009073s)
+[2021.12.02-15.51.12:448][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.12.02-15.51.12:448][  5]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.51.12:448][  5]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.51.12:448][  5]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.51.12:449][  5]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.51.12:449][  5]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.51.12:449][  5]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.51.12:449][  5]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.51.12:458][  5]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.51.12:458][  5]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.51.12:470][  5]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.51.12:470][  5]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.51.12:470][  5]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.51.12:470][  5]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.51.12:471][  5]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.51.12:471][  5]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.51.12:471][  5]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.51.12:472][  5]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.51.12:472][  5]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.51.12:472][  5]LogInit: FAudioDevice initialized.
+[2021.12.02-15.51.12:472][  5]LogAudio: Display: Audio Device (ID: 33) registered with world 'VRTemplateMap'.
+[2021.12.02-15.51.12:483][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.51.14:588][  5]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.51.14:591][  5]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.51.14
+[2021.12.02-15.51.14:591][  5]LogWorld: Bringing up level for play took: 0.002090
+[2021.12.02-15.51.14:591][  5]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.12.02-15.51.14:594][  5]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.51.14:595][  5]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.51.14:599][  5]PIE: Server logged in
+[2021.12.02-15.51.14:601][  5]PIE: Play in editor total start time 2.256 seconds.
+[2021.12.02-15.51.14:679][  5]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.51.15:333][ 68]LogBlueprintUserMessages: [VRTemplateMap_C_13] Right Trigger
+[2021.12.02-15.51.15:351][ 70]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.51.17:205][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.51.17:205][255]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.51.17:283][255]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.51.17:287][255]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.51.17:287][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.51.17:296][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.51.17:308][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.51.17:331][255]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.51.17:331][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.51.17:333][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.51.17:340][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.12.02-15.51.17:384][256]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.12.02-15.52.08:946][195]BlueprintLog: New page: Compile VRTemplateMap
+[2021.12.02-15.52.09:007][195]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.12.02-15.52.09:877][252]LogTemp: Repeating last play command: VR Preview
+[2021.12.02-15.52.09:884][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-15.52.09:884][252]PIE: New page: PIE session: VRTemplateMap (Dec 2, 2021, 5:52:09 AM)
+[2021.12.02-15.52.09:884][252]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.52.09:896][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011743s)
+[2021.12.02-15.52.09:897][252]LogAIModule: Creating AISystem for world VRTemplateMap
+[2021.12.02-15.52.09:897][252]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2021.12.02-15.52.09:897][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.013200s)
+[2021.12.02-15.52.09:926][252]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.12.02-15.52.09:926][252]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.12.02-15.52.09:927][252]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.12.02-15.52.09:927][252]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-15.52.09:927][252]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.12.02-15.52.09:928][252]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.12.02-15.52.09:928][252]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.02-15.52.09:928][252]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-15.52.09:937][252]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-15.52.09:937][252]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-15.52.09:952][252]LogAudioMixer: Display: Using Audio Device DELL U2414H (NVIDIA High Definition Audio)
+[2021.12.02-15.52.09:953][252]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-15.52.09:953][252]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-15.52.09:953][252]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-15.52.09:953][252]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-15.52.09:954][252]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-15.52.09:954][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-15.52.09:956][252]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-15.52.09:956][252]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-15.52.09:956][252]LogInit: FAudioDevice initialized.
+[2021.12.02-15.52.09:956][252]LogAudio: Display: Audio Device (ID: 34) registered with world 'VRTemplateMap'.
+[2021.12.02-15.52.09:968][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.52.10:587][252]LogLoad: Game class is 'VRGameMode_C'
+[2021.12.02-15.52.10:590][252]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2021.12.02-10.52.10
+[2021.12.02-15.52.10:590][252]LogWorld: Bringing up level for play took: 0.002311
+[2021.12.02-15.52.10:591][252]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2021.12.02-15.52.10:593][252]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.12.02-15.52.10:595][252]LogHMD: SetSpectatorScreenMode(7).
+[2021.12.02-15.52.10:601][252]PIE: Server logged in
+[2021.12.02-15.52.10:604][252]PIE: Play in editor total start time 0.722 seconds.
+[2021.12.02-15.52.10:667][252]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.12.02-15.52.11:240][304]LogBlueprintUserMessages: [VRTemplateMap_C_14] Right Trigger
+[2021.12.02-15.52.11:258][306]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.12.02-15.52.14:864][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-15.52.14:864][665]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2021.12.02-15.52.14:931][665]LogSlate: Window 'RobbingTheBirdsNest Preview [NetMode: Standalone]  (64-bit/Windows) OpenXR' being destroyed
+[2021.12.02-15.52.14:933][665]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.52.14:934][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.52.14:944][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-15.52.14:957][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.52.14:979][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-15.52.14:979][665]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.12.02-15.52.14:979][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.52.14:981][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-15.52.15:000][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.12.02-15.52.15:046][666]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2021.12.02-15.52.17:057][823]LogSlate: Window 'VRTemplateMap' being destroyed
+[2021.12.02-15.52.17:062][823]LogSlate: Window 'VRTemplateMap' being destroyed
+[2021.12.02-15.52.17:093][823]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-15.52.17:093][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-15.52.19:271][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.12.02-15.52.19:318][ 45]LogSavePackage: Moving '../../../../../../Users/SIG Admin/CIS568/team1/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/VRTemplateMap39E314794691BAB80B6C5F8AA3386C31.tmp' to '../../../../../../Users/SIG Admin/CIS568/team1/RobbingTheBirdsNest/RobbingTheBirdsNest/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2021.12.02-15.52.19:454][ 45]LogSavePackage: Moving '../../../../../../Users/SIG Admin/CIS568/team1/RobbingTheBirdsNest/RobbingTheBirdsNest/Saved/VRTemplateMap_BuiltData43DFCBFE4F0B89F8BF3D728EC2C7132D.tmp' to '../../../../../../Users/SIG Admin/CIS568/team1/RobbingTheBirdsNest/RobbingTheBirdsNest/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset'
+[2021.12.02-15.52.19:477][ 45]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.02-15.52.19:477][ 45]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2021.12.02-15.52.19:477][ 45]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData
