@@ -1,9 +1,11 @@
 # Robbing The Bird's Nest
-2 Player Cooperative VR Game
+**2 Player Cooperative VR Game**
 
-![Game Preview](preview.png)
+***![Game Preview](preview.png)***
 
 Created by Nathan Devlin, Anthony Mansur, and Jacky Lu
+
+[Game Trailer](https://drive.google.com/file/d/1Sk0GgzvECwEfDHEiNujv9DLqNhKkF-nd/view) 
 
 *Inspired by the game theme involving cooperation involving both a Bird and Worm perspectives.*
 
