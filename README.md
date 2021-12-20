@@ -148,4 +148,73 @@ The Start Menu will be a simple, standard, straight-forward Start Menu; there ar
 Game Solution/Action
 The solution of the game is successfully navigating to the center Vault, picking up the Target, and navigating back out without being detected.
 
+## Game Documentation
+### **1. a User’s Guide that will allow others to try your game.**
+#### Basic Operational and Constitutive Rules
+* The players’ goal is to collaborate with each other in order for the Worm to reach the target location/room where the treasure is located, pick up the treasure, and finally place it on the table in the lobby, and try not to get detected by the robots during the entire time. The players win the game the moment the Worm places the treasure on the table inside the lobby. The Worm has limited visibility (degree of visibility depends on the level of difficulty) in the darkness when it’s not lit by the light operated by the Bird. The Worm will be sent back to the lobby if he/she is detected by the robots and will have to restart from the lobby to complete the task. In addition to operating the light to help the Worm navigate in between rooms and avoid being detected by the robots, the Bird is also responsible for moving the light such that the Worm can find the code required for entering certain rooms in virtual reality. For example, the Worm will have to find the 4 digits code with the help of the Bird, and the Worm will have to communicate with the Bird verbally so that the Bird can enter the code using the keyboard and open the door for the Worm in virtual reality. The Bird overlooks the game map from above and can go in between zoom-in and zoom-out mode.
+#### Player Controls and Inputs
+* Worm
+    * Vive Virtual Reality Headset: for visual and aural immersion in the virtual reality space
+    * Trigger Button on Right Vive Virtual Reality Controller:
+        1. for opening the door when the player is near the door
+        2. for picking up the treasure when the player is near the treasure, and for putting down the treasure
+* Bird
+	* Key T: for selecting “Tutorial Mode” as the game’s difficulty level
+	* Key 1: for selecting “Easy Mode” as the game’s difficulty level
+	* Key 2: for selecting “Medium Mode” as the game’s difficulty level
+	* Key 3: for selecting “Hard Mode” as the game’s difficulty level
+	* Arrow Keys (Up, Down, Left, Right): for moving the light in the scene
+    * Keys 0-9: for inputting the 4 digits secret code in order to open the door to the next room for the Worm in virtual reality space
+    * Key Shift: for switching between the zoom-out mode where the map of all rooms show up on the screen and the zoom-in mode where only the room that the Worm is currently in is showed on the screen
+Key Esc: exiting the game
 
+#### Difficulty Levels Information
+* Tutorial Mode
+	* Light Intensity/Darkness Level: N/A
+	* Robot Field of View Angle: N/A
+	* Robot Speed: N/A
+* Easy Mode
+	* Light Intensity/Darkness Level: N/A
+	* Robot Field of View Angle: N/A
+	* Robot Speed: N/A
+* Medium Mode
+	* Light Intensity/Darkness Level: N/A
+	* Robot Field of View Angle: N/A
+	* Robot Speed: N/A
+* Hard Mode
+	* Light Intensity/Darkness Level: N/A
+	* Robot Field of View Angle: N/A
+	* Robot Speed: N/A
+			
+
+### **2. documentation on how to set up and configure your game**
+* Step 1: Connect the Vive virtual reality headset to the machine that the game will run on.
+* Step 2: Use SteamVR to setup the virtual reality environment’s boundary and have a one-to-one mapping between the physical space and room scale virtual reality space
+* Step 3: Run the game executable file.
+* Step 4: Select difficulty level by pressing the T key, the 1 key, the 2 key, or the 3 key
+* Step 5: Game starts!
+### **3. a list describing the major game play features that were implemented in your game (also note any features that have been added since your beta demo)**
+
+* Timer (New)
+* Robot patrolling sound that updates based on the position of the robot (New)
+* Treasure pickup sound (New)
+* Treasure placement sound (New)
+* Robot detection alarm sound (New)
+* Door opening sound (New)
+* 4 adjustable game difficulty levels (New)
+* Visual indictor (cone) with angle that matches the robot’s detection field of view (New)
+* Colored doors to provide better indication of direction (New)
+* Flip-Flop player teleportation mechanism to map multi-room virtual reality space to one-room physical space
+* Random 4 digits code generation and spawning at random location
+* Code entering and displaying
+* Procedurally determined robot patrolling path
+* Smooth robot rotation at corners in patrolling path (New)
+* VR spectator camera with zoom-out mode where the map of all rooms show up on the screen and zoom-in mode where only the room that the Worm is currently in is showed on the screen
+* Orange “hat” with emissive material (in order to stand out in darkness) that marks the Worm’s location in the map
+
+### **4. a description of the technical issues you encountered using the Vive, or Unity and Unreal engines**
+
+### **5. a list describing all plugins and off-the-shelf assets that were used in your game, along with a URL link to the plugins/assets**
+
+* Robot Asset: https://www.cgtrader.com/free-3d-models/character/sci-fi/spider-robot-cc31ad14-882f-4e67-88e3-22713e73855d
+* Treasure Asset: https://www.cgtrader.com/free-3d-print-models/jewelry/pendants/dragon-free
