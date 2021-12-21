@@ -29,9 +29,9 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 
 The game was developed on Windows, and the executable above is for Windows machines. However, one could Package the game for Mac using the source project if they downloaded the Unreal project files from this repo.
 
-Naturally, one needs a VR Headset to play the game (HTC Vive, specifically). However, those without a VR Headset can still open the game and see how the game works for the Bird player. 
+Naturally, one needs a VR Headset to play the game (HTC Vive, specifically). However, those without a VR Headset can still open the game and see how the game works for the Bird player: 
 
-Once the game opens, they will see a black screen: press Tab, then press Left Shift twice. They will see the start of the game as it would appear to a team using a VR Headset. From there, they can operate the Bird's controls the same way as normal - naturally, the Worm icon will not move without a VR Headset attached.
+Open the executable. Once the game opens, they will see a black screen: press Tab, then press Left Shift twice. They will see the start of the game as it would appear to a team using a VR Headset. From there, they can operate the Bird's controls the same way as normal - naturally, the Worm icon will not move without a VR Headset attached.
 
 To play the game using the HTC Vive Headset, see the section "Setup and Configuration," below.
 
@@ -39,26 +39,29 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 ## Game Documentation
 ### User Guide
 #### Basic Operational and Constitutive Rules
-* Both players collaborate with each other with the objective of the "Worm" retrieiving a treasure from the target room. The Worm must go to the target room, pick up the treasure, and place it back in the lobby's table, without being detected by the robots. The players win the game the moment the Worm places the treasure on the table inside the lobby. 
-* The Worm has limited visibility (degree of visibility depends on the level of difficulty) in the darkness when it’s not lit by the light operated by the Bird. The Worm will be sent back to the lobby if he or she is detected by the robots and will have to restart from the lobby.
+* Both players collaborate with each other with the objective of the "Worm" retrieiving a treasure from the target room. The Worm must go to the target room, pick up the treasure, and place it back on the lobby's table, without being detected by the robots. The players win the game the moment the Worm places the treasure on the table inside the lobby. 
+* The Worm has limited visibility due to a lack of light (amount of visibility depends on the level of difficulty). The Bird will operate a light helping the Worm overcome this difficulty. The Worm will be sent back to the lobby if he or she is detected by the robots and will have to restart from the lobby.
 *  In addition to operating the light to help the Worm navigate in between rooms and avoid being detected by the robots, the Bird is also responsible for moving the light such that the Worm can find the code required for entering certain rooms in virtual reality. 
-  * For example, the Worm will have to find the 4 digits code with the help of the Bird, and the Worm will have to communicate with the Bird verbally so that the Bird can enter the code using the keyboard and open the door for the Worm in virtual reality. 
-* The Bird overlooks the game map from above and can go in between zoom-in and zoom-out mode.
+  * For example, the Worm will have to find the 4 digit code with the help of the Bird, and the Worm will have to communicate with the Bird verbally so that the Bird can enter the code using the keyboard and open the door for the Worm in virtual reality. 
+* The Bird overlooks the game map from above and can view either a zoomed-out overview of the whole level, or a zoomed-in view of the room the Worm is in.
+* A timer will start once the Worm leaves the Lobby into the first room. The timer ends when they successfully place the Treasure on the table. Players can try to beat their best times!
+
 #### Player Controls and Inputs
 * Worm
-    * Vive Virtual Reality Headset: for visual and aural immersion in the virtual reality space
+    * Vive Virtual Reality Headset: for visual and aural immersion in the virtual reality space. The position of the Head Mounted Display (HMD) also determines where the player's "virtual body" is that controls whether the robots can see the player or not.
     * Trigger Button on Right Vive Virtual Reality Controller:
-        1. for opening the door when the player is near the door
-        2. for picking up the treasure when the player is near the treasure, and for putting down the treasure
+        1. For opening the door when the player is near the door
+        2. For picking up the treasure when the player is near the treasure, and for putting down the treasure
 * Bird
-	* Key T: for selecting “Tutorial Mode” as the game’s difficulty level
-	* Key 1: for selecting “Easy Mode” as the game’s difficulty level
-	* Key 2: for selecting “Medium Mode” as the game’s difficulty level
-	* Key 3: for selecting “Hard Mode” as the game’s difficulty level
+
 	* Arrow Keys (Up, Down, Left, Right): for moving the light in the scene
-    * Keys 0-9: for inputting the 4 digits secret code in order to open the door to the next room for the Worm in virtual reality space
-    * Key Shift: for switching between the zoom-out mode where the map of all rooms show up on the screen and the zoom-in mode where only the room that the Worm is currently in is showed on the screen
-	  Key Esc: exiting the game
+  * Keys 0-9: for inputting the 4 digit secret code in order to unlock a locked door
+  * Key Left Shift: for switching between the zoomed-out overview of the whole level, or a zoomed-in view of the room the Worm is in
+	* Key Esc: Exiting the game
+	* Key T: For selecting “Tutorial Mode” as the game’s difficulty level
+	* Key 1: For selecting “Easy Mode” as the game’s difficulty level
+	* Key 2: For selecting “Medium Mode” as the game’s difficulty level
+	* Key 3: For selecting “Hard Mode” as the game’s difficulty level
 
 #### Difficulty Levels Information
 * Tutorial Mode
@@ -78,11 +81,14 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 			
 
 ### **Setup and Configuration**
-* Step 1: Connect the Vive virtual reality headset to the machine that the game will run on.
-* Step 2: Use SteamVR to setup the virtual reality environment’s boundary and have a one-to-one mapping between the physical space and room scale virtual reality space
-* Step 3: Run the game executable file.
+* Step 1: Connect the Vive virtual reality headset to your computer and start up Steam VR; make sure everything is tracking and properly configured.
+* Step 2: Use SteamVR Room Set Up to setup the virtual reality environment’s boundary; the game assumes you have a minimum of a 3 meter by 3 meter space in which to play the game as you will physically be moving around in this space. The game is designed to use close to the maximum amount of the Vive's space (limited by the Vive's cord). Additionally, creating a rectangular boundary is preferable, as this will minimize the blue VR boundaries becoming visible and distracting the player during the game.
+* Step 3: Run the game executable file. If necessary, the Bird can use the I, J, K, L keys to reposition the starting location of the Worm i.e. the Worm's relative position in the virtual room.
 * Step 4: Select difficulty level by pressing the T key, the 1 key, the 2 key, or the 3 key
-* Step 5: Game starts!
+* Step 5: The Worm can exit the Lobby by moving towards the green door and pressing the trigger
+* Step 6: The game begins and the timer starts! Don't get caught!
+
+
 ### **Major Gameplay Features**
 
 "*" Indicates features added during Beta 
