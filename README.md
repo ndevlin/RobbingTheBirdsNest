@@ -1,9 +1,9 @@
 # Robbing The Bird's Nest
-**A 2 Player Cooperative VR Game**
+## A 2 Player Cooperative VR Game
 
 ***![Start](images/Title.png)***
 
-Created by Nathan Devlin, Anthony Mansur, and Jacky Lu
+**Created by Nathan Devlin, Anthony Mansur, and Jacky Lu**
 
 ## [Click here for Game Trailer](https://drive.google.com/file/d/1Sk0GgzvECwEfDHEiNujv9DLqNhKkF-nd/view) 
 
@@ -46,21 +46,19 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 
 #### Difficulty Levels Information
 * Tutorial Mode
-	* Light Intensity/Darkness Level: N/A
-	* Robot Field of View Angle: N/A
-	* Robot Speed: N/A
+	* Player can not be detected in this mode; Player may walk through to see game layout and understand their tasks and obstacles
 * Easy Mode
-	* Light Intensity/Darkness Level: N/A
+	* Light Intensity/Darkness Level: Some ambient light
 	* Robot Field of View Angle: N/A
-	* Robot Speed: N/A
+	* Robot Speed: Slow
 * Medium Mode
-	* Light Intensity/Darkness Level: N/A
+	* Light Intensity/Darkness Level: Very little ambient light
 	* Robot Field of View Angle: N/A
-	* Robot Speed: N/A
+	* Robot Speed: Fast
 * Hard Mode
-	* Light Intensity/Darkness Level: N/A
+	* Light Intensity/Darkness Level: No ambient light
 	* Robot Field of View Angle: N/A
-	* Robot Speed: N/A
+	* Robot Speed: Very fast
 			
 
 ### **Setup and Configuration**
@@ -71,7 +69,7 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 * Step 5: Game starts!
 ### **Major Gameplay Features**
 
-*: Indicates features added during Beta 
+"*" Indicates features added during Beta 
 
 * Flip-Flop player teleportation mechanism to map multi-room virtual reality space to one-room physical space
 * Random 4 digits code generation and spawning at random location
