@@ -1,11 +1,11 @@
 # Robbing The Bird's Nest
 **A 2 Player Cooperative VR Game**
 
-***![Game Preview](preview.png)***
+***![Start](Title.png)***
 
 Created by Nathan Devlin, Anthony Mansur, and Jacky Lu
 
-## [Game Trailer](https://drive.google.com/file/d/1Sk0GgzvECwEfDHEiNujv9DLqNhKkF-nd/view) 
+## [Click here for Game Trailer](https://drive.google.com/file/d/1Sk0GgzvECwEfDHEiNujv9DLqNhKkF-nd/view) 
 
 
 ## Overview
@@ -14,6 +14,9 @@ Did you ever see yourself in Mission Impossible or Ocean’s 11, working as a te
 Players must interact in real time and work together to get in and get out safely. The player with the VR Headset, the "Worm", will move through the space, avoid obstacles, look for clues, and avoid being seen. The player at the computer, the "Bird," can see the whole scene from above, modify the lighting in real time to help the Worm, and manipulate the environment in other ways. The Worm will see these changes live and can interact with the virtual world accordingly.
 
 This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. Blueprints were used extensively to handle the game logic, input from the computer and the VR headset, and more.
+
+
+***![Game Preview](preview.png)***
 
 
 ## Game Documentation
