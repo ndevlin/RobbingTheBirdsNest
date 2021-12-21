@@ -66,13 +66,13 @@ Steam VR installed and configured
 ### Backstory
 
 **Mission Debrief for agent Worm:**
-You are a special operations agent, code name Worm, and your mission is to extract an item of great value in a heavily guarded building. You will work with another special ops agent, code name Bird, who will give you both verbal directions and operate an infrared light visible only to you through the use of your headset to guide your path to the target location. Inside the vaults, you need to avoid the patrolling surveilance robots at all costs. You will have to coordinate with the Bird closely in order to navigate your way to the target location safely.
+You are a special operations agent, code name Worm, and your mission is to extract an item of great value in a heavily guarded building. You will work with another special ops agent, code name Bird, who will give you both verbal directions and operate an infrared light visible only to you through the use of your headset to guide your path to the target location. Inside the vaults, you need to avoid the patrolling surveillance robots at all costs. You will have to coordinate with the Bird closely in order to navigate your way to the target location safely.
 
 **Mission Debrief for agent Bird:**
-You are a special operations agent, code name Bird, and your mission is to help another special ops agent, code name Worm, to extract a top secret item in a heavily guarded building. You will not enter the building yourself; instead, you will provide verbal information to agent Worm and operate an infrared light to help him/her navigate in darkness based on the high level overview you have of the vault's layout. Thus, your goal is to work closely with agent Worm and guide him/her through the vault, to the treasure, and back out without being detected by the robots.
+You are a special operations agent, code name Bird, and your mission is to help another special ops agent, code name Worm, to extract a high-value item in a heavily guarded building. You will not enter the building yourself; instead, you will provide verbal information to agent Worm and operate an infrared light to help him/her navigate in darkness based on the high level overview you have of the vault's layout. Thus, your goal is to work closely with agent Worm and guide him/her through the vault, to the treasure, and back out without being detected by the robots.
 
 #### Basic Operational and Constitutive Rules
-* Both players collaborate with each other with the objective of the "Worm" retrieiving a treasure from the target room. The Worm must go to the target room, pick up the treasure, and place it back on the lobby's table, without being detected by the robots. The players win the game the moment the Worm places the treasure on the table inside the lobby. 
+* Both players collaborate with each other with the objective of the "Worm" retrieving a treasure from the target room. The Worm must go to the target room, pick up the treasure, and place it back on the lobby's table, without being detected by the robots. The players win the game the moment the Worm places the treasure on the table inside the lobby. 
 * The Worm has limited visibility due to a lack of light (amount of visibility depends on the level of difficulty). The Bird will operate a light helping the Worm overcome this difficulty. The Worm will be sent back to the lobby if he or she is detected by the robots and will have to restart from the lobby.
 *  In addition to operating the light to help the Worm navigate in between rooms and avoid being detected by the robots, the Bird is also responsible for moving the light such that the Worm can find the code required for entering certain rooms in virtual reality. 
   * For example, the Worm will have to find the 4 digit code with the help of the Bird, and the Worm will have to communicate with the Bird verbally so that the Bird can enter the code using the keyboard and open the door for the Worm in virtual reality. 
@@ -150,7 +150,7 @@ No significant "technical" issues were experienced with Unreal Engine. However, 
 
 * Ping-Pong player teleportation mechanism to map multi-room virtual reality space to one-room physical space
 * Random 4 digit code generation and spawning at random location
-* Code input and displayi
+* Code input and display
 * Procedurally determined robot patrolling path
 * VR spectator camera with overview mode where full level shows up on the screen and close-up mode where only the room that the Worm is currently in is showed on the screen
 * Orange “hat” with emissive material (in order to stand out in darkness) that marks the Worm’s location in the map
