@@ -19,6 +19,8 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 
 ***![Game Preview](images/preview.png)***
 
+***![Blueprints](images/blueprints.png)***
+
 
 ## Game Documentation
 ### User Guide
@@ -49,15 +51,15 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 	* Player can not be detected in this mode; Player may walk through to see game layout and understand their tasks and obstacles
 * Easy Mode
 	* Light Intensity/Darkness Level: Some ambient light
-	* Robot Field of View Angle: N/A
+	* Robot Field of View Angle: 50 degrees
 	* Robot Speed: Slow
 * Medium Mode
 	* Light Intensity/Darkness Level: Very little ambient light
-	* Robot Field of View Angle: N/A
+	* Robot Field of View Angle: 100 degrees
 	* Robot Speed: Fast
 * Hard Mode
 	* Light Intensity/Darkness Level: No ambient light
-	* Robot Field of View Angle: N/A
+	* Robot Field of View Angle: 170 degrees
 	* Robot Speed: Very fast
 			
 
