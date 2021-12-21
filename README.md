@@ -55,17 +55,24 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 * Bird
 
 	* Arrow Keys (Up, Down, Left, Right): for moving the light in the scene
+
   * Keys 0-9: for inputting the 4 digit secret code in order to unlock a locked door
+
   * Key Left Shift: for switching between the zoomed-out overview of the whole level, or a zoomed-in view of the room the Worm is in
+	
 	* Key Esc: Exiting the game
+
 	* Key T: For selecting “Tutorial Mode” as the game’s difficulty level
+
 	* Key 1: For selecting “Easy Mode” as the game’s difficulty level
+
 	* Key 2: For selecting “Medium Mode” as the game’s difficulty level
+
 	* Key 3: For selecting “Hard Mode” as the game’s difficulty level
 
 #### Difficulty Levels Information
 * Tutorial Mode
-	* Player cannot be detected in this mode; Player may walk through to see game layout and understand their tasks and obstacles
+	* Player cannot be detected in this mode; Player may walk through to see game layout and understand their tasks and obstacles. The environment is well illuminated.
 * Easy Mode
 	* Light Intensity/Darkness Level: Some ambient light
 	* Robot Field of View Angle: 50 degrees
@@ -82,24 +89,39 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 
 ### **Setup and Configuration**
 * Step 1: Connect the Vive virtual reality headset to your computer and start up Steam VR; make sure everything is tracking and properly configured.
+
 * Step 2: Use SteamVR Room Set Up to setup the virtual reality environment’s boundary; the game assumes you have a minimum of a 3 meter by 3 meter space in which to play the game as you will physically be moving around in this space. The game is designed to use close to the maximum amount of the Vive's space (limited by the Vive's cord). Additionally, creating a rectangular boundary is preferable, as this will minimize the blue VR boundaries becoming visible and distracting the player during the game.
+
 * Step 3: Run the game executable file. If necessary, the Bird can use the I, J, K, L keys to reposition the starting location of the Worm i.e. the Worm's relative position in the virtual room.
+
 * Step 4: Select difficulty level by pressing the T key, the 1 key, the 2 key, or the 3 key
-* Step 5: The Worm can exit the Lobby by moving towards the green door and pressing the trigger
+
+* Step 5: The Worm can exit the Lobby and enter the first room by moving towards the green door and pressing the trigger
+
 * Step 6: The game begins and the timer starts! Don't get caught!
+
+### **Development Challenges and Solutions**
+
+Technical Issues encountered using Vive & Unreal Engine:
+The biggest challenge with using Vive was getting the base stations connected and synchronized. Several times, the game would gray out when player goes near the edge of the game arena. Trial and error gave us a room setup that worked reliably.
+
+No significant "technical" issues were experienced with Unreal Engine. However, learning the input and output mechanisms of Unreal for the Vive was challenging and had a steep learning curve. YouTube, the Unreal documentation, and online forums were invaluable. 
+
+### **Third Party Plugins and Assets**
+
+* Robot Asset: https://www.cgtrader.com/free-3d-models/character/sci-fi/spider-robot-cc31ad14-882f-4e67-88e3-22713e73855d
+* Treasure Asset: https://www.cgtrader.com/free-3d-print-models/jewelry/pendants/dragon-free
 
 
 ### **Major Gameplay Features**
 
-"*" Indicates features added during Beta 
-
-* Flip-Flop player teleportation mechanism to map multi-room virtual reality space to one-room physical space
-* Random 4 digits code generation and spawning at random location
-* Code entering and displaying
+* Ping-Pong player teleportation mechanism to map multi-room virtual reality space to one-room physical space
+* Random 4 digit code generation and spawning at random location
+* Code input and displayi
 * Procedurally determined robot patrolling path
-* VR spectator camera with zoom-out mode where the map of all rooms show up on the screen and zoom-in mode where only the room that the Worm is currently in is showed on the screen
+* VR spectator camera with overview mode where full level shows up on the screen and close-up mode where only the room that the Worm is currently in is showed on the screen
 * Orange “hat” with emissive material (in order to stand out in darkness) that marks the Worm’s location in the map
-* Game logic with win/loss condition + game state
+* Game logic with win/loss conditions + game state machine
 * Timer*
 * Sounds*
   * Robot patrolling, played at robot location
@@ -114,18 +136,11 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 * Smooth robot rotation at corners in patrolling path*
 * Improved game logic + refactoring*
 
-### **Technical Issues encountered using Vive & Unreal Engine**
+"*" Indicates features added during Beta 
 
-The biggest challenge with using Vive was getting the base stations connected and synchronized. Several times, the game would gray out when player goes near the edge of the game arena. 
 
-No significant technical issues was experienced with Unreal Engine.
 
-### **Third Party Plugins and Assets**
-
-* Robot Asset: https://www.cgtrader.com/free-3d-models/character/sci-fi/spider-robot-cc31ad14-882f-4e67-88e3-22713e73855d
-* Treasure Asset: https://www.cgtrader.com/free-3d-print-models/jewelry/pendants/dragon-free
-
-## Original Design Document
+## Original Design Specification
 
 ### Executive Summary
 
