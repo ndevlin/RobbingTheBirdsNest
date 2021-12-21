@@ -119,20 +119,6 @@ You are a special operations agent, code name Bird, and your mission is to help 
 	* Robot Field of View Angle: 170 degrees
 	* Robot Speed: Very fast
 			
-
-### **Setup and Configuration**
-* Step 1: Connect the Vive virtual reality headset to your computer and start up Steam VR; make sure everything is tracking and properly configured.
-
-* Step 2: Use SteamVR Room Set Up to setup the virtual reality environment’s boundary; the game assumes you have a minimum of a 3 meter by 3 meter space in which to play the game as you will physically be moving around in this space. The game is designed to use close to the maximum amount of the Vive's space (limited by the Vive's cord). Additionally, creating a rectangular boundary is preferable, as this will minimize the blue VR boundaries becoming visible and distracting the player during the game.
-
-* Step 3: Run the game executable file. If necessary, the Bird can use the I, J, K, L keys to reposition the starting location of the Worm i.e. the Worm's relative position in the virtual room.
-
-* Step 4: Select difficulty level by pressing the T key, the 1 key, the 2 key, or the 3 key
-
-* Step 5: The Worm can exit the Lobby and enter the first room by moving towards the green door and pressing the trigger
-
-* Step 6: The game begins and the timer starts! Don't get caught!
-
 ### **Development Challenges and Solutions**
 
 Technical Issues encountered using Vive & Unreal Engine:
