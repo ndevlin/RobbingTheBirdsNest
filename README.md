@@ -7,6 +7,13 @@
 
 ## [Click here for Game Trailer](https://drive.google.com/file/d/1Sk0GgzvECwEfDHEiNujv9DLqNhKkF-nd/view) 
 
+## [Click here for Game Executable](https://drive.google.com/file/d/10nm8vXUrFvDPSKlvBrEVujf4rmKm-uYF/view?usp=sharing) 
+
+
+***![Collaborative](images/Collaborative.png)***
+
+***![Game Preview](images/preview.png)***
+
 
 ## Overview
 Did you ever see yourself in Mission Impossible or Ocean’s 11, working as a team to break into a vault to nab the valuables before you get caught? Now you’ll have the opportunity to see if you have what it takes! One player will strap on the VR headset and infiltrate the vault to steal the treasure, the other will observe from above, helping them navigate through the vault, solve puzzles, and avoid being detected. 
@@ -15,11 +22,18 @@ Players must interact in real time and work together to get in and get out safel
 
 This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. Blueprints were used extensively to handle the game logic, input from the computer and the VR headset, and more.
 
-***![Collaborative](images/Collaborative.png)***
-
-***![Game Preview](images/preview.png)***
-
 ***![Blueprints](images/Blueprints.png)***
+
+
+## Demo-ing the Game
+
+The game was developed on Windows, and the executable above is for Windows machines. However, one could Package the game for Mac using the source project if they downloaded the Unreal project files from this repo.
+
+Naturally, one needs a VR Headset to play the game (HTC Vive, specifically). However, those without a VR Headset can still open the game and see how the game works for the Bird player. 
+
+Once the game opens, they will see a black screen: press Tab, then press Left Shift twice. They will see the start of the game as it would appear to a team using a VR Headset. From there, they can operate the Bird's controls the same way as normal - naturally, the Worm icon will not move without a VR Headset attached.
+
+To play the game using the HTC Vive Headset, see the section "Setup and Configuration," below.
 
 
 ## Game Documentation
@@ -48,7 +62,7 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 
 #### Difficulty Levels Information
 * Tutorial Mode
-	* Player can not be detected in this mode; Player may walk through to see game layout and understand their tasks and obstacles
+	* Player cannot be detected in this mode; Player may walk through to see game layout and understand their tasks and obstacles
 * Easy Mode
 	* Light Intensity/Darkness Level: Some ambient light
 	* Robot Field of View Angle: 50 degrees
@@ -105,7 +119,7 @@ No significant technical issues was experienced with Unreal Engine.
 * Robot Asset: https://www.cgtrader.com/free-3d-models/character/sci-fi/spider-robot-cc31ad14-882f-4e67-88e3-22713e73855d
 * Treasure Asset: https://www.cgtrader.com/free-3d-print-models/jewelry/pendants/dragon-free
 
-## Design Document
+## Original Design Document
 
 ### Executive Summary
 
