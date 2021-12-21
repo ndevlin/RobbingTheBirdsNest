@@ -38,6 +38,8 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 
 ## Game Documentation
 
+## [Click here for a demonstrative Playthrough video of the game](https://vimeo.com/ndevlin/rtbnplaythrough) 
+
 ### User Guide
 
 #### Hardware/Software Requirements
