@@ -5,7 +5,7 @@
 
 **Created by Nathan Devlin, Anthony Mansur, and Jacky Lu**
 
-## [Click here for Game Trailer](https://drive.google.com/file/d/1Sk0GgzvECwEfDHEiNujv9DLqNhKkF-nd/view) 
+## [Click here for Game Trailer](https://vimeo.com/ndevlin/rtbn) 
 
 ## [Click here for Game Executable](https://drive.google.com/file/d/10nm8vXUrFvDPSKlvBrEVujf4rmKm-uYF/view?usp=sharing) 
 
