@@ -19,7 +19,7 @@ This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. B
 
 ***![Game Preview](images/preview.png)***
 
-***![Blueprints](images/blueprints.png)***
+***![Blueprints](images/Blueprints.png)***
 
 
 ## Game Documentation

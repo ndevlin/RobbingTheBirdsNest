@@ -73,3 +73,5 @@ RobbingTheBirdsNest/Plugins/*/Intermediate/*
 # Cache files for the editor to use
 RobbingTheBirdsNest/DerivedDataCache/*
 RobbingTheBirdsNest/Content/StarterContent/Audio/air_vent_trimmed.uasset
+.DS_Store
+.DS_Store
