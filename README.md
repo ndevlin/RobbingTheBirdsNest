@@ -15,6 +15,7 @@ Players must interact in real time and work together to get in and get out safel
 
 This game was implemented using Unreal Engine, Steam VR, and the HTC Vive Pro. Blueprints were used extensively to handle the game logic, input from the computer and the VR headset, and more.
 
+***![Collaborative](Collaborative.png)***
 
 ***![Game Preview](preview.png)***
 
