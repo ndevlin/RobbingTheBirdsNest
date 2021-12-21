@@ -37,7 +37,40 @@ To play the game using the HTC Vive Headset, see the section "Setup and Configur
 
 
 ## Game Documentation
+
 ### User Guide
+
+#### Hardware/Software Requirements
+Windows 7 or higher, 64-bit. 
+Quad-core Intel or AMD processor, 2.5 GHz or faster.
+NVIDIA GeForce 470 GTX or AMD Radeon 6870 HD series card or higher.
+8 GB RAM or more.
+HTC Vive or HTC Vive Pro
+Steam VR installed and configured
+
+
+### **Setup and Configuration**
+* Step 1: Connect the Vive virtual reality headset to your computer and start up Steam VR; make sure everything is tracking and properly configured.
+
+* Step 2: Use SteamVR Room Set Up to setup the virtual reality environment’s boundary; the game assumes you have a minimum of a 3 meter by 3 meter space (ideally 5m X 5m) in which to play the game as you will physically be moving around in this space. The game is designed to use close to the maximum amount of the Vive's space (limited by the Vive's cord). Additionally, creating a rectangular boundary is preferable, as this will minimize the blue VR boundaries becoming visible and distracting the player during the game.
+
+* Step 3: Run the game executable file. If necessary, the Bird can use the I, J, K, L keys to reposition the starting location of the Worm i.e. the Worm's relative position in the virtual room.
+
+* Step 4: Select difficulty level by pressing the T key, the 1 key, the 2 key, or the 3 key
+
+* Step 5: The Worm can exit the Lobby and enter the first room by moving towards the green door and pressing the trigger
+
+* Step 6: The game begins and the timer starts! Don't get caught!
+
+
+### Backstory
+
+**Mission Debrief for agent Worm:**
+You are a special operations agent, code name Worm, and your mission is to extract an item of great value in a heavily guarded building. You will work with another special ops agent, code name Bird, who will give you both verbal directions and operate an infrared light visible only to you through the use of your headset to guide your path to the target location. Inside the vaults, you need to avoid the patrolling surveilance robots at all costs. You will have to coordinate with the Bird closely in order to navigate your way to the target location safely.
+
+**Mission Debrief for agent Bird:**
+You are a special operations agent, code name Bird, and your mission is to help another special ops agent, code name Worm, to extract a top secret item in a heavily guarded building. You will not enter the building yourself; instead, you will provide verbal information to agent Worm and operate an infrared light to help him/her navigate in darkness based on the high level overview you have of the vault's layout. Thus, your goal is to work closely with agent Worm and guide him/her through the vault, to the treasure, and back out without being detected by the robots.
+
 #### Basic Operational and Constitutive Rules
 * Both players collaborate with each other with the objective of the "Worm" retrieiving a treasure from the target room. The Worm must go to the target room, pick up the treasure, and place it back on the lobby's table, without being detected by the robots. The players win the game the moment the Worm places the treasure on the table inside the lobby. 
 * The Worm has limited visibility due to a lack of light (amount of visibility depends on the level of difficulty). The Bird will operate a light helping the Worm overcome this difficulty. The Worm will be sent back to the lobby if he or she is detected by the robots and will have to restart from the lobby.
@@ -200,7 +233,7 @@ For the player on the computer, their mechanic will be pointing and clicking/ dr
 
 #### Player Resources
 
-The Bird’s main light will be a resource for the first player. I also had a thought that maybe the Worm could have a Taser that they could only use a few times to disable a surveillance robot, which would be another resource. The Worm can also use temporary invisible cloak for a set amount of time in order to avoid being detected by the robots. The cloaks can be resources that can be collected on the map or resources that are given to the player at the beginning of the game.
+The Bird’s main light will be a resource for the first player. 
 
 #### Boundaries and Constraints
 
@@ -218,27 +251,17 @@ The Worm will be physically moving in the real world as they move through the vi
 
 ### Backstory, Characters, and Worlds
 
-#### Premise
-
-**Mission Debrief for agent Worm:**
-You are a special operations agent, code name Worm, and your mission is to extract a top secret item in a heavily guarded building. You will work with another special operations agent code name Bird, who will give you both verbal directions and operate a light to guide your path to the destination where the secret item is located. Inside the vaults, you need to avoid the patrolling robots at all cost because their laser knives will cut you into pieces once they spot you. Fortunately, as long as you are not lit by the light, the robots cannot detect you. As a result, you will have to coordinate with the Bird closely in order to have enough clarity on your way to the target location but not get exposed to the robots.
-
-**Mission Debrief for agent Bird:**
-You are a special operations agent, code name Bird, and your mission is to help another special operations agent, code name Worm, to extract a top secret item in a heavily guarded building. You will not enter the building yourself; instead, you will provide verbal information to agent Worm and operate a light to help him navigate in darkness based on the high level overview information provided to you. However, please be careful since agent Worm’s life entirely depends on you since he will be cut into pieces by the patrolling robots’ laser knives if he’s detected by the robots. Fortunately, as long as agent Worm is not lit by the light, he will not be spotted by the robots. As a result, your goal is to work closely with agent Worm and guide him/her in combination with the valuable information you have from the high level overview of the building
-
-**Spaces/Worlds (includes concept art, sketches, etc.)**
+**Spaces/Worlds**
 The spaces will be a series of small rooms that the player moves through to get to the center of the maze, where the target is located. Each room will have multiple doors, such that the Worm will need the help of the Bird to know which way they should go to get to the Vault, the main room with the target they are trying to steal. These rooms will have some physical obstacles, and surveillance robots that move on fixed paths, scanning the area for intruders. The rooms will be fairly dark, lit primarily by the main light that the Bird controls. This will both add further challenge to the game, and also decrease the amount of production design we will need to make our game look professional. 
 
-We may have something like 25 total rooms, some of which are connected, some of which are not, in a maze-like pattern. The Worm will need the help of the Bird to be able to know which doors to use to get where they want to go.
-
-**Main Bosses, sub-bosses (includes concept art, sketches, etc.)**
+**Main Bosses, sub-bosses**
 We could potentially have some kind of difficult final Surveillance Robot, such as robots that can move around and detect any intruders in an extremely fast and agile manner, in or right before the final vault that the player will have to get past to get the target.
 
 ### Interaction Models
 
 #### User Interface
 
-For the Worm, their main User interface will consist of moving physically in the space, thus controlling where their virtual avatar is in the virtual world. They could also use the hand controllers to open doors, move objects, or solve small challenges/ puzzles we could require for them to get to the next room. If we do the Taser idea, then they could also use the hand controller to aim and shoot the Taser to take out the surveillance robots
+For the Worm, their main User interface will consist of moving physically in the space, thus controlling where their virtual avatar is in the virtual world. They could also use the hand controllers to open doors, move objects, or solve small challenges/ puzzles we could require for them to get to the next room. 
 
 **User/Environment - Obstacles and Props**
 The main obstacle will be the surveillance robots. However, there may also be physical barriers that the player or the Bird will have to move out of the way. There will be doors in the rooms that the Worm will have to open to get to the next room.
@@ -278,16 +301,6 @@ The game will be winner take all: Either the players successfully steal the Targ
 
 ### Implementation Details
 
-#### Design Assumptions
-
-Hardware
-UE4 spec requirements.
-Desktop PC
-Windows 7 64-bit
-Quad-core Intel or AMD processor, 2.5 GHz or faster.
-NVIDIA GeForce 470 GTX or AMD Radeon 6870 HD series card or higher.
-8 GB RAM.
-
 #### Software
 
 ​            We will be using the Unreal Engine 4 software. 
@@ -312,8 +325,10 @@ Finite state machine - Play state/effect
 
 **In-game**
 The Bird will be able to see an overhead view of the Level, and where the Worm is in that level, along with where the surveillance robots are, etc.
-The Worm will have a 3D first-person view of the room they are in. If we have a timer, the amount of time they have remaining will be visible to them. If we use the Taser idea, the number of shots remaining in their Taser will be shown as well
+The Worm will have a 3D first-person view of the room they are in. If we have a timer, the amount of time they have remaining will be visible to them. 
+
 **Start Menu**
 The Start Menu will be a simple, standard, straight-forward Start Menu; there are no options the user needs to change or worry about
+
 **Game Solution/Action**
 The solution of the game is successfully navigating to the center Vault, picking up the Target, and navigating back out without being detected.
